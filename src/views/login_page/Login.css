@@ -3,7 +3,7 @@
     width:100%;
     height:641px;
     background-image:linear-gradient(to right, #080357,#ffad33) ;
-    position: fixed;
+    
     display: flex;
 }
 

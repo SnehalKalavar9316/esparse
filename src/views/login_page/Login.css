@@ -1,0 +1,167 @@
+.login-card
+{
+    width:100%;
+    height:641px;
+    background-image:linear-gradient(to right, #080357,#ffad33) ;
+    position: fixed;
+    display: flex;
+}
+
+.loginimg
+{ 
+     height:500px;
+    width: 500px; 
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.firstdiv
+{
+    height: 500px;
+    width: 500px;
+    margin-top: 60px;
+    background-color: white;
+   margin-left: 200px;
+   border-top-left-radius: 15px;
+   border-bottom-left-radius:15px;
+}
+.seconddiv
+{
+    height: 500px;
+    width: 400px;
+    margin-top: 60px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.info
+{
+    height: 304px;
+    width: 450px;
+    background-color:white;
+    margin: 25px;
+}
+.user-input
+{
+    border: none;
+    border-bottom: 1px solid #15186D;
+    line-height: 100%;
+    margin: 15px;
+}
+.pass-input
+{
+    border: none;
+    border-bottom: 1px solid #15186D;
+    line-height: 100%;
+    margin-left: 15px;
+}
+.sign-up-btn
+{
+    color:white;
+    background-color:#15186D ;
+    border-radius: 15px;
+    width:200px;
+    margin-top: 60px;
+    margin-left: 150px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 60% #afb0d3;
+} 
+
+
+                             /* Responsive */
+
+
+ @media screen and (min-width:600px) and (max-width:769px)
+{
+ .login-card
+ {
+    width:600px;
+    height:640px;
+    display: block;
+    background-image:linear-gradient(to right, #080357,#ffad33) ;
+}
+.firstdiv
+{
+    height: 300px;
+    width: 500px;
+    margin-top: 20px;
+    background-color: white;
+   margin-left: 50px;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+}
+.info
+{
+    height: 220px;
+    width: 350px;
+    margin-top: 40px;
+    margin-left: 70px;
+    position: absolute;
+}
+.welcome-to-admin-text
+{
+    color:'#15186D';
+   position: absolute;
+   margin-left: 50px;
+   font-size: 20px;
+}
+.username
+{
+   padding-left: 50px;
+   
+    padding-top: 35px;
+    position: absolute;
+}
+.user-input
+{
+    width:50%;
+    border: none;
+    border-bottom: 1px solid #15186D;
+    padding-top:30px ;
+    margin-left: 60px;
+    
+}
+.password
+{
+    padding-left: 50px;
+    margin-top: 30px;
+}
+.pass-input
+{
+    width:50%;
+    border: none;
+    border-bottom: 1px solid #15186D;
+   padding-top:10px;
+    
+    margin-left: 60px   
+}
+.sign-up-btn
+{
+    color:white;
+    background-color:#15186D ;
+    border-radius:15px;
+    width:100px;
+    margin-top: 30px;
+    margin-left: 120px;
+    padding:5px;
+    cursor: pointer;
+    box-shadow: 60% #afb0d3;
+} 
+.seconddiv
+{
+    height: 300px;
+    width: 500px;
+    margin-top:0px;
+    background-color: white;
+   margin-left: 50px;
+  border-bottom-right-radius:15px;
+  border-bottom-left-radius:15px;
+}
+.loginimg
+{ 
+     height:300px;
+    width: 500px; 
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px;
+}
+} 
